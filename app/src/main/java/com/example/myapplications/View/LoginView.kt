@@ -15,6 +15,17 @@ class LoginView {
         )
     }
 
+    @Composable
+    fun Kece(name: String, modifier: Modifier = Modifier) {
+        Text(
+            text = "Hello $name!",
+            modifier = modifier
+        )
+        Text("Luar Biasa IHIY")
+    }
+
+
+
     @Preview(showBackground = true)
     @Composable
     fun GreetingPreview() {
