@@ -16,7 +16,7 @@ class LoginView {
     }
 
     @Composable
-    fun halo(name: String, modifier: Modifier = Modifier) {
+    fun Kece(name: String, modifier: Modifier = Modifier) {
         Text(
             text = "Hello $name!",
             modifier = modifier
